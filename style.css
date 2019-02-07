@@ -1,0 +1,185 @@
+html,
+body {
+    margin: 0;
+}
+h1,
+h3,
+h4 {
+    font-family: "Amatic SC";
+}
+h2 {
+    font-size: 30px;
+    font-family: "Amatic SC";
+    text-align: center;
+}
+h2: hover {
+    color: #e90338;
+}
+header {
+      background: url(https://i.ibb.co/187dwkC/Captura-de-pantalla-2019-01-25-a-las-0-07-33.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: auto;
+      width: auto;
+}
+header h1 {
+    text-align: center;
+    padding: 50px;
+    font-family: pattaya;
+    font-size: 4em;
+    color: white;
+    opacity: 0.8;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-align: center;
+    padding: .8em;
+    margin: 0;
+    background: white;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    padding: 2em;
+    text-align: center;
+    font-size: 20px;
+    transition: 0.3s;
+}
+.nav-link:hover {
+    cursor: pointer;
+    color: #e90338;
+}
+
+ #performances {
+     margin: 0;
+     height: 100%;
+ }
+
+
+ #performances ul {
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     align-items: center;
+     list-style-type: none;
+ }
+
+ #performances li {
+     padding: 10px;
+     text-align: center;
+ }
+
+ #performances li h3 {
+     font-size: 20px;
+     margin-bottom: 5%;
+     margin-top: 0%;
+ }
+ #performances h3:hover {
+     color:#e90338;
+ }
+
+ #performances ul li p {
+     text-align: left;
+     margin-bottom: 15%;
+         font-family: Amatic SC;
+         color: black;
+         padding: 0px;
+         font-size: 20px;
+ }
+
+ 
+ #performances .one img {
+     width: 300px;
+ }
+#performances .two img {
+    width: 300px;
+}
+#performances .three img {
+    width: 300px;
+}
+
+
+#about {
+    padding: 2em;
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: auto;
+      width: auto;
+    padding-top: 1em;
+    font-size: 35px;
+}
+#video {
+    display: block;
+    margin: 0 auto;
+    margin-top: 60px;
+    max-width: 100vw;
+    margin-bottom: 30px;
+}
+#prices {
+   font-size: 55px;
+  
+}
+table {
+    border-collapse: collapse;
+    align-items: center;
+    margin: 0 auto;
+}
+
+th,
+td {
+    border: 1px solid black;
+ 
+}
+
+td {
+    text-decoration: none;
+    color: black;
+    padding: 1em;
+    text-align: center;
+    font-size: 25px;
+    font-family: "Amatic SC";
+}
+td:hover {
+    background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+    color: #e90338;
+}
+
+
+#contact {
+  margin: auto;
+  background:white;
+  padding: 1em;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+#email {
+  padding: .8em;
+  width: 500px;
+}
+#form {
+  margin: auto;
+  padding: 1em;
+  text-align: center;
+  padding-bottom: 1em;
+
+}
+
+footer {
+    margin: auto;
+    text-decoration: none;
+    color: black;
+    padding: 1em;
+    text-align: center;
+    font-size: 15px; 
+    font-family: "Amatic SC";
+ }
+ a:hover {
+         color: #e90338;
+ }
